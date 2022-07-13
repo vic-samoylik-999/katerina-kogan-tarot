@@ -1,0 +1,19 @@
+/*==================== Scroll Bar ====================*/
+
+::-webkit-scrollbar {
+	width: 0.60rem;
+	background-color: $beige;
+	transition: .3s;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: $pink;
+	border-radius: .5rem;
+	transition: .3s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: $purple;
+	border-radius: .5rem;
+	transition: .3s;
+}
